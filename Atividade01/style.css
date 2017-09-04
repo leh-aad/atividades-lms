@@ -1,0 +1,43 @@
+.content{
+	text-align: justify;
+	width: 400px;
+	margin: 0 auto;
+}
+.img{
+	text-align: center;
+}
+
+table, td, th{
+	border-collapse: collapse;
+	border: 1px solid black;
+	width: 250px;
+	height: 50px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.tabela{
+	margin: 0 auto;
+	text-align: center;
+	color: blue;	
+}
+.frame{
+	margin: 0 auto;
+	text-align: center;
+}
+iframe{
+	width: 600px;
+	height: 600px;
+}
+body{
+	background-color: white;
+}
+h2,h3{
+	color: rgb(153, 153, 255);
+}
+.corpo{
+	border: 1px solid black;
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #e0e0eb;
+}
