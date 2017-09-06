@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF8"/>
+	<title>Blog LMS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav class="nav-blog">
+		<a href="https://www.w3schools.com/html/default.asp">HTML</a>
+		<a href="https://www.w3schools.com/css/default.asp">CSS</a>
+		<a href="https://www.w3schools.com/js/default.asp">JS</a>
+	</nav>
+
+	<header>
+		<h3>Linguagem de marcação e script</h3>
+	</header>
+
+	<div class="content">
+		<article id="article1">
+			<h4>HTML</h4>
+			<p>
+				O HTML(<i>Hyper Text Markup Language</i>) é uma linguagem de marcação que descreve documentos Web.
+				<br/>
+				Uma linguagem de marcação é um conjunto de tags de marcação.
+			</p>
+
+			<section>
+				<h4>Elementos HTML</h4>
+				Composto por tudo que está entre a tag de início (inclusive) e tag de fim (inclusive).
+			</section>
+
+			<section>
+				<h4>HTML - Estrutura</h4>
+				<p>
+				Seção Head: Título, Recursos externos, Metadados
+				<br/>
+				Seção Body: Texto, Imagem, Links
+				</p>
+			</section>
+		</article>
+
+		<article id="article2">
+			<h4>CSS</h4>
+			<p>
+				CSS, que significa Cascading Style Sheets, descreve como os elementos são renderizados na tela. 
+			</p>
+
+		</article>
+
+		<article id="article3">
+			<h4>Boneco em SVG</h4>
+			<svg width="250" height="250">
+				<circle cx="50" cy="50" r="20" stroke="black" stroke-width="2" fill="transparent" />
+				<circle cx="43" cy="43" r="3" stroke="black" stroke-width="2" fill="transparent" />
+				<circle cx="57" cy="43" r="3" stroke="black" stroke-width="2" fill="transparent" />
+				
+				<circle cx="57" cy="49" r="1" stroke="blue" stroke-width="2" fill="white" />
+				
+				<line x1="50" y1="70" x2="50" y2="150" style="stroke:black ;stroke-width:2" />
+				<line x1="50" y1="150" x2="80" y2="180" style="stroke:black ;stroke-width:2" />
+				<line x1="50" y1="150" x2="20" y2="180" style="stroke:black ;stroke-width:2" />
+				<line x1="50" y1="100" x2="20" y2="130" style="stroke:black ;stroke-width:2" />
+				<line x1="50" y1="100" x2="80" y2="130" style="stroke:black ;stroke-width:2" />
+			</svg> 
+		</article>
+
+		<article id="article4"> 
+			<h4>Video:</h4>
+			<video width="320" height="240" controls>
+				<source src="video.mp4" type="video/mp4">
+				Seu navegador não suporta elemento video.
+			</video>
+			<h4>Audio:</h4>
+			<audio controls>
+				<source src="audio.mp3" type="audio/mpeg">
+				Seu navegador não suporta elemento audio
+			</audio>
+
+		</article>
+
+		<article id="article5">
+			<h4>Formulário:</h4>
+			<form action="https://www.w3schools.com/action_page.php" method="GET">
+				<label>Nome: </label>
+				<br/>
+				<input type="text" name="nome">
+				<input type="text" name="campo" readonly value="Obrigatorio">
+				<br/> 
+				<label>Quantidade entre 25000 e 30000: </label>
+				<input type="number" name="num" min="25000" max="30000">
+				<br/>
+				<input type="radio" name="sim" value="Sim">Sim
+				<input type="radio" name="nao" value="Nao">Não
+				<br/> 
+				<input type="checkbox" name="aceito" value="aceito">Aceito receber mensagens sobre o assunto.
+				<br/> 
+				<input type="submit" value="Enviar">
+			</form>
+		</article>
+	</div>
+
+	<footer>Todos os direitos reservados</footer>
+</body>
+</html>
