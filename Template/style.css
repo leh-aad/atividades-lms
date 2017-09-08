@@ -1,0 +1,29 @@
+.card-content{
+    padding: 10px !important; 
+    padding-bottom: 0px !important;
+}
+.card-action{
+    padding: 10px !important; 
+}
+.badge{
+    min-width: 0rem !important;
+    font-size: 0.6rem !important;
+    padding: 0 4px !important; 
+}
+.card-title{
+    font-size: 18px !important;
+}
+#portifolio{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+li{
+    margin: 10px;
+    display: inline;
+}
+body{
+    background-color: #e8eaf6 ; 
+    font-family: 'Quicksand', sans-serif;   
+}
+
