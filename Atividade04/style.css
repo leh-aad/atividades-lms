@@ -4,7 +4,7 @@
     font-family: 'fontawesome';
     src: url('lib/fonts/fontawesome.eot') format('embedded-opentype'),
     url('lib/fonts/fontawesome.woff') format('woff'),
-    url('lib/fonts/fontawesome.ttf') format('truetype'),
+    url('lib/fonts/fontawesome.ttf') format ('truetype'),
     url('lib/fonts/fontawesome.svg') format('svg');
     font-style: normal;
 }
@@ -104,4 +104,48 @@ header {
     font-weight: 400;
     margin-top: 16px;
     margin-bottom: 10px;
+}
+
+/*Dropdown*/
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content h4{
+    padding-left: 16px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+.dropdown-content a:hover {
+    background-color:  #616161;
+}
+
+li a:hover, .dropdown:hover .item {
+    background-color: white;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
