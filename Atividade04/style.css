@@ -2,10 +2,7 @@
 
 @font-face {
     font-family: 'fontawesome';
-    src: url('lib/fonts/fontawesome.eot') format('embedded-opentype'),
-    url('lib/fonts/fontawesome.woff') format('woff'),
-    url('lib/fonts/fontawesome.ttf') format ('truetype'),
-    url('lib/fonts/fontawesome.svg') format('svg');
+    src: url('lib/fonts/fontawesome.woff') format('woff');
     font-style: normal;
 }
 
