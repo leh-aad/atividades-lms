@@ -1,0 +1,107 @@
+/*Import fontawesome*/
+
+@font-face {
+    font-family: 'fontawesome';
+    src: url('lib/fonts/fontawesome.eot') format('embedded-opentype'),
+    url('lib/fonts/fontawesome.woff') format('woff'),
+    url('lib/fonts/fontawesome.ttf') format('truetype'),
+    url('lib/fonts/fontawesome.svg') format('svg');
+    font-style: normal;
+}
+
+/* Header Style */
+header {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.header-logo{
+    width: 300px;
+    float: left;
+    font-family: fontawesome;
+}
+.logo{
+    text-decoration: none;
+    color: #555555;
+    font-size: 37px;
+    position: relative;
+}
+.com{
+    color: #4CAF50;
+}
+.descricao{
+    position: relative;
+    top: 16px;
+    float: right;
+    font-family: "Segoe UI",Arial,sans-serif;    
+    letter-spacing: 4px;
+}
+
+/*Horizontal Nav*/
+.horizontal{
+    margin-top: 10px;   
+    font-family: "Segoe UI",Arial,sans-serif;
+    width: 100%;
+    float: left;
+    background-color: #4CAF50;
+    font-size: 17px;
+    margin-left: -8px;
+    padding-right: 16px;    
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.horizontal ul{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;   
+}
+.horizontal li{
+    float: left;
+}
+.horizontal li>a {
+    display: block;
+	color: white;
+	padding: 14px 16px;
+    text-decoration: none;   
+    letter-spacing: 4px;
+}
+.horizontal li>a:hover {
+    color: black;
+    background-color: white;
+    
+}
+
+/*Vertical Nav*/
+.vertical{
+    width: 250px;
+    height: 100%;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    margin-left: -8px;   
+    float: left;
+    font-family: Verdana,sans-serif;
+    line-height: 1.5;
+}
+
+.vertical a{
+    display: block;
+    padding-left: 16px;
+    width: 234px;
+    float: left; 
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    text-decoration-color: black;
+    text-align: left;
+}
+
+.vertical a:hover{
+    background-color: #616161;
+}
+.vertical h4{
+    padding-left: 16px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
