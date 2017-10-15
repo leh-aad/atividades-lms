@@ -14,9 +14,9 @@
     font-size: 18px !important;
 }
 #portifolio{
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 10px;
 }
 li{
     margin: 10px;
@@ -25,5 +25,9 @@ li{
 body{
     background-color: #e8eaf6 ; 
     font-family: 'Quicksand', sans-serif;   
+}
+
+hr{
+    width: 300px;
 }
 
