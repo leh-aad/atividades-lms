@@ -97,17 +97,23 @@ body{
     box-sizing: border-box;
     float: left;
 }
-.sended-msg>span{
+.messages .received-msg{
+    text-align: left;
+}
+.messages .sended-msg{
+    text-align: right;
+}
+.received-msg>span{
     display: inline-block;
     padding: 10px;
     margin: 10px;
     border-radius: 15px;
-    background-color: #ece5dd;
+    background-color: white;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
-.received-msg>span{
-    float:right;
+.sended-msg>span{
+    display: inline-block;
     padding: 10px;
     margin: 10px;
     border-radius: 15px;
