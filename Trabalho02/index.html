@@ -6,24 +6,45 @@
     <title>Trabalho 02</title>
 </head>
 <body>
-    <div class="header">
-        <div class="title">TeleWhats</div>
-        <div class="header-button">
-            <a href="#">Entrar</a>
-        </div>
-    </div>
-    <div class="content">
-        
-        <div class="friends-bar">
-            <div class="content-header"><span>Contatos</span></div>
-            <div class="list"></div>
-        </div>
-        <div class="chat">
-            <div class="content-header"><span id="current-name"></span></div>        
-            <div class="messages">
-                <div class="received-msg"></div>
+    <div class="modal-overlay"></div>
+        <div class="header">
+            <div class="title">TeleWhats</div>
+            <div class="header-button">
+                <a id="open-login" href="#">Entrar</a>
             </div>
         </div>
+        <div class="content">
+            
+            <div class="friends-bar">
+                <div class="content-header">
+                    <span>Grupos</span>
+                    <div class="add-group">+</div>
+                </div>
+                <div class="list-groups"></div>
+            </div>
+            <div class="chat">
+                <div class="content-header"><span id="current-name"></span></div>        
+                <div class="messages">
+                    
+                </div>
+                <footer>
+                    <div class="input-container">
+                        <input type="text" id="input-msg" placeholder="Digite uma mensagem"/>
+                        <input class="btn" id="send-msg" type="submit" value="Enviar">
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+    <div class="modal modal-login">
+            ID: <input class="input-text" id="id-login" type="text" placeholder="Digite seu ID"/>
+             <input class="btn" id="logar" type="submit" value="Logar">
+    </div>
+    <div class="modal modal-group">
+        <h4>Cadastro grupo</h4>
+        Nome: <input class="input-text" id="nome-grupo" type="text" placeholder="Digite o nome do grupo"/><br>
+        ID Grupo:<input class="input-text" id="id-grupo" type="text" placeholder="Digite o ID do grupo"/><br>
+        <input class="btn" id="cadastrar-grupo" type="submit" value="Cadastrar">
     </div>
 </body>
 <script src="js/script_parte2.js"></script>
